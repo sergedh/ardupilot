@@ -20,6 +20,7 @@ public:
     /*
       Sets the target global position for a loiter point.
     */
+    
     bool set_global_position(const Location& loc) override WARN_IF_UNUSED;
 private:
     /*
